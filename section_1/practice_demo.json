@@ -1,0 +1,25 @@
+{
+    "name": "注释符号",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "注释符号.",
+    "desc": "- 注释符号.",
+    "step_desc": "- 注释符号",
+    "tips": "- 注释符号.",
+    "answer": "- 注释符号.",
+
+    "project_dir": "/javascript_template",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "base_1.js",
+            "path": "/javascript_template/"
+        }
+    ],
+    "spec": {
+        "name": "index_1.html",
+        "path": "/javascript_template/"
+    },
+    "order": 0
+}
