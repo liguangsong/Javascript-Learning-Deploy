@@ -10,10 +10,10 @@
         "运行后将会在console中实时输出字符 Hello World .",
         "请回答:"
     ],
-    "code": "console.log(\'Sunday\');",
+    "code": "console.log('Sunday');",
     "question": {
         "content": "上面代码在控制台console中的输出结果是?",
-        "options": ["Sunday","String", "\'Sunday\'"]
+        "options": ["Sunday","String", "'Sunday'"]
     },
     "answer": {
         "value": "Sunday",
