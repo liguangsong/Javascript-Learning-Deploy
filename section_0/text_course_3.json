@@ -8,6 +8,9 @@
         "我们的实现代码是:",
         "\n\r\t\tconsole.log('JS Basic');",
         "或",
-        "\n\r\t\tconsole.log(\"JS Basic\");"
+        "\n\r\t\tconsole.log(\"JS Basic\");",
+        "",
+        ""
+
     ]
 }
