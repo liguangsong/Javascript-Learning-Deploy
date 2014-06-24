@@ -13,7 +13,7 @@
     "code": "",
     "question": {
         "content": "下列选项中哪一项是字符串的正确书写格式?",
-        "options": ["Hi","'Hello!'", "Hello World"]
+        "options": ["\"Hi'","'Hello!'", "Hello World"]
     },
     "answer": {
         "value": "'Hello!'",
