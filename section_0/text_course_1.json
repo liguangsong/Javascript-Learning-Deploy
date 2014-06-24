@@ -10,10 +10,10 @@
         "其中，引号可以使用单引号也可使用双引号,但必须成对出现。",
         "下面我们看一个小练习："
     ],
-    "code": "",
+    "code": "123",
     "question": {
         "content": "下列选项中哪一项是字符串的正确书写格式?",
-        "options": ["Hello World"]
+        "options": [ "Hello World"]
     },
     "answer": {
         "value": "\'Hello!\'",
