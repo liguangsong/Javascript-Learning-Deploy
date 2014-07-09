@@ -362,8 +362,6 @@
         height:19px;
         margin-bottom:80px;
         margin-left: 10px;
-    }
-    #body:hover .cursor {
         -webkit-animation-name: blink;
         -webkit-animation-duration: 1.5s;
         -webkit-animation-iteration-count: infinite;
@@ -371,7 +369,20 @@
         -moz-animation-duration: 1.5s;
         -moz-animation-iteration-count: infinite;
     }
+    @keyframes blink
+    {
+        0%   {  background:rgba(99,222,0,100);  }
+        100% {  background:rgba(99,222,0,0);  }
+    }
 
+    @-webkit-keyframes blink {
+        0%   {  background:rgba(99,222,0,100);  }
+        100% {  background:rgba(99,222,0,0);  }
+    }
+    @-moz-keyframes blink {
+        0%   {  background:rgba(99,222,0,100);  }
+        100% {  background:rgba(99,222,0,0);  }
+    }
 
     #content{
         float: left;
