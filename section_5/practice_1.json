@@ -1,0 +1,28 @@
+{
+    "show_name": "if语句",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "If 语句为代码创建了一个所谓的'分支'，就跟 RPG 游戏中的情节分支一样。if 语句告诉你的脚本:如果这个布尔表达式为真，就运行接下来的代码，否则就跳过这一段.",
+    "desc_file": true,
+    "step_desc_file": true,
+    "tips_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_5/practice_1/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_5/practice_1/practice", "../specs/section_5/practice_1"]
+    },
+    "order": 0
+}

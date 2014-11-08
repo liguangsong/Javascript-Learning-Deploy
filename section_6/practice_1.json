@@ -1,0 +1,28 @@
+{
+    "show_name": "for语句",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "for循环语句是基本的控制语句，for循环语句中只要循环条件成立就不断重复执行同样处理的代码块。即代码中同一代码块会被反复执行.",
+    "desc_file": true,
+    "step_desc_file": true,
+    "tips_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_6/practice_1/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_6/practice_1/practice", "../specs/section_6/practice_1"]
+    },
+    "order": 0
+}

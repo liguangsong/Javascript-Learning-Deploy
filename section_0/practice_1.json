@@ -1,0 +1,28 @@
+{
+    "show_name": "HelloWorld",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "这是我们本次js学习旅程的第一个程序 - Hello World!",
+    "desc_file": true,
+    "step_desc_file": true,
+    "tips_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_0/practice_1/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_0/practice_1/practice", "../specs/section_0/practice_1"]
+    },
+    "order": 0
+}

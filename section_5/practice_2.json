@@ -1,0 +1,28 @@
+{
+    "show_name": "else和if",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "else if 和 else 是两个辅助 if 条件判断语句的关键字，常用的语句如 if....else if...else... ，适用于需要选择多个代码块中的一个来运行的情况。",
+    "desc_file": true,
+    "step_desc_file": true,
+    "tips_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_5/practice_2/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_5/practice_2/practice", "../specs/section_5/practice_2"]
+    },
+    "order": 1
+}

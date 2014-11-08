@@ -1,0 +1,2 @@
+- 获取数据类型的方法: typeof(data);
+- 定义变量并给变量赋值的方法: var type = value;

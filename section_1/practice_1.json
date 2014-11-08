@@ -1,0 +1,28 @@
+{
+    "show_name": "注释符号",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "我们可以添加注释来对 JavaScript 进行解释，禁用某些代码，或者提高代码的可读性。",
+    "desc_file": true,
+    "step_desc_file": true,
+    "tips_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_1/practice_1/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_1/practice_1/practice", "../specs/section_1/practice_1"]
+    },
+    "order": 0
+}

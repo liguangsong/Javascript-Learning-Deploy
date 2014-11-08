@@ -1,0 +1,28 @@
+{
+    "show_name": "函数function",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "函数是由一连串的子程序(一系列语句的集合)所组成的，可以被外部程序调用。向函数传递参数之后，函数可以返回一定的值。",
+    "desc_file": true,
+    "step_desc_file": true,
+    "tips_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_7/practice_1/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_7/practice_1/practice", "../specs/section_7/practice_1"]
+    },
+    "order": 0
+}

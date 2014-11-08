@@ -1,0 +1,28 @@
+{
+    "show_name": "比较运算符",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "程序编写者就是在制定程序运行时的规则，即合理的安排代码去操作数据，并且根据操作数据的结果再次指定需要运行的代码.比较运算符就提供了对数据结果判断的功能。",
+    "desc_file": true,
+    "step_desc_file": true,
+    "tips_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_4/practice_1/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_4/practice_1/practice", "../specs/section_4/practice_1"]
+    },
+    "order": 0
+}

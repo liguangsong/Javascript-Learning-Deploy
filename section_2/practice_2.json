@@ -1,0 +1,28 @@
+{
+    "show_name": "复杂数据",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "对象(object)和其特殊形式数组(array)是Javascript语言中能够用来组织复杂数据结构的数据类型。",
+    "desc_file": true,
+    "step_desc_file": true,
+    "tips_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_2/practice_2/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console","../practices/section_2/practice_1/practice", "../practices/section_2/practice_2/practice", "../specs/section_2/practice_2"]
+    },
+    "order": 1
+}
