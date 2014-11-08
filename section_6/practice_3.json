@@ -1,0 +1,28 @@
+{
+    "show_name": "for循环求和",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "使用for循环语句将1~100（不包括100）中的偶数加起来，并将结果展示给用户.",
+    "desc_file": true,
+    "step_desc_file": true,
+    "tips_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_6/practice_3/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_6/practice_3/practice", "../specs/section_6/practice_3"]
+    },
+    "order": 2
+}

@@ -1,0 +1,28 @@
+{
+    "show_name": "for拼接字符串",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "使用for循环语句来减少代码的重复，本题使用for循环语句将数组中的每个字符串拼接成一整个字符串展示给用户.",
+    "desc_file": true,
+    "step_desc_file": true,
+    "tips_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_6/practice_2/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_6/practice_2/practice", "../specs/section_6/practice_2"]
+    },
+    "order": 1
+}
