@@ -1,0 +1,28 @@
+{
+    "show_name": "函数形参实参",
+    "type": "normal",
+    "point": 200,
+
+    "simple_desc": "函数的形参只有在调用函数时才会分配内存（即参数是有生命的），调用结束后，就会释放所分配的内存。函数的实参是一直存活在主调函数中，并且当实参被传入到被调函数中时，实参一定是一个确定的值（可以是常量、变量、表达式、函数）",
+    "desc_file": true,
+    "step_desc_file": true,
+    "tips_file": true,
+    "answer_file": true,
+
+    "project_dir": "/practices",
+    "specs_dir": "/specs",
+    "files": [
+        {
+            "name": "practice.js",
+            "path": "/practices/section_7/practice_3/"
+        }
+    ],
+    "runner": {
+        "name": "challenge.html",
+        "path": "/practices",
+        "type":"terminal",
+        "src":"browser",
+        "run_files": ["./console", "../practices/section_7/practice_3/practice", "../specs/section_7/practice_3"]
+    },
+    "order": 2
+}

@@ -1,9 +1,9 @@
 {
-    "show_name": "循环求和",
+    "show_name": "函数调用",
     "type": "normal",
     "point": 200,
 
-    "simple_desc": "使用for循环语句将1~100（不包括100）中的偶数加起来，并将结果展示给用户.",
+    "simple_desc": "函数调用即通过调用函数的函数名以及传入参数，来执行函数体代码",
     "desc_file": true,
     "step_desc_file": true,
     "tips_file": true,
@@ -14,7 +14,7 @@
     "files": [
         {
             "name": "practice.js",
-            "path": "/practices/section_6/practice_3/"
+            "path": "/practices/section_7/practice_2/"
         }
     ],
     "runner": {
@@ -22,7 +22,7 @@
         "path": "/practices",
         "type":"terminal",
         "src":"browser",
-        "run_files": ["./console", "../practices/section_6/practice_3/practice", "../specs/section_6/practice_3"]
+        "run_files": ["./console", "../practices/section_7/practice_2/practice", "../specs/section_7/practice_2"]
     },
-    "order": 2
+    "order": 1
 }

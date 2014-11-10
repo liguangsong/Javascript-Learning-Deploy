@@ -1,0 +1,2 @@
+- 给函数print\_add\_result()添加代码，实现两数相加，并返回结果
+- 调用print\_add\_result()函数，声明变量:add\_result，接收函数调用结果，并打印
