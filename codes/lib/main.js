@@ -39,7 +39,7 @@ require(['jquery', 'underscore', 'console'], function () {
 //        console.log('document on ready');
 
         window.onerror = function() {
-            console.log(arguments[0]);
+            console.log(arguments[0]); 
         };
 
         if (parent.load_files) {
