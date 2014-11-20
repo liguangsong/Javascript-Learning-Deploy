@@ -34,12 +34,22 @@ function runner(load_files) {
     });
 }
 
-require(['jquery'], function () {
+require(['jquery', 'underscore', 'console'], function () {
     $(document).ready(function () {
 //        console.log('document on ready');
+
+        window.onerror = function() {
+            console.log(arguments[0]);
+        };
+
         if (parent.load_files) {
             return runner(parent.load_files);
         }
 //        alert('please execute spec with runner function by load_files params');
     });
 });
+
+
+
+
+
