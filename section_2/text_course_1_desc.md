@@ -1,6 +1,6 @@
-javascript中的代码只有一种形式，就是function。数据 和 过程 就是构成javascript世界的基本元素。
+数据 和 过程 是构成javascript世界的基本元素。其中，数据分两类 - 简单数据 和 复杂数据；过程只有一种形式，就是function（在后面的章节会讲到）。
 
-javascript中的数据共分两类 - 简单数据 和 复杂数据。简单数据有undefined，null，boolean，number和string这五种。复杂数据只有一种，即对象（object）（对象，在后面的内容会讲到）。
+简单数据有undefined，null，boolean，number和string这五种。复杂数据只有一种，即对象（object）（对象，在后面的内容会讲到）。
 
 先来说说其中的简单数据类型。
 
