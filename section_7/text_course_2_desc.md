@@ -22,7 +22,7 @@
         return result;			//  返回值
     }
     var sum = get_sum(2, 3);	// 调用函数，将返回值5赋值给变量 sum
-    console.log(sum);			// 在console输出变量的值 5
+    console.log(sum);			// 打印结果为：5
 
 上述代码的执行结果
 

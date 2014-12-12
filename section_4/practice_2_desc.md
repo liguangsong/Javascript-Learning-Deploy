@@ -2,7 +2,7 @@
 - 和条件表达式的格式 condition ? expr1 : expr2;
 - 例如:
 
-    3>7 && 2>0 //false
-    3>7 || 2>0 //true
-    !(3>7)    //true
-    3>7 ? console.log('3>7') : console.log('3<=7');  // '3<=7'。
+        3>7 && 2>0 //false
+        3>7 || 2>0 //true
+        !(3>7)    //true
+        3>7 ? console.log('3>7') : console.log('3<=7');  // 打印结果为：'3<=7'。
