@@ -29,7 +29,7 @@
     "Hello" != "World";     //  true
     var result = "Hello"=="World";    //  result的值是  false
 
-下面区分 == 与 === 的使用，如下：
+接下来区分 == 与 === 的使用，如下：
 
     4 == "4"    //值为 true
     4 === "4"   //值为 false
