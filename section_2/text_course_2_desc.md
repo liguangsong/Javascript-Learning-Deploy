@@ -1,5 +1,8 @@
 javascript中的复杂数据类型只有一种，即 对象(object)。
 
+{} 花括号，用来定义一个对象；
+[] 中括号，用来定义一个数组
+
 对象由花括号包围。在括号内部，属性以键值对的形式，如 key : value  来定义。属性间由逗号分隔。例如:
 
     var student={name:'Tom', finish_work:true, id:123};
