@@ -1,7 +1,7 @@
 {
-    "title": "赋值运算符",
+    "title": "组合运算符",
     "type": "topic",
-    "order": 1,
+    "order": 2,
     "desc_file": true,
     "code": "var x=2, y=5;\nx += ++y;",
     "question": {

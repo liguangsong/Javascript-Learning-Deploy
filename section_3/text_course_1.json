@@ -1,7 +1,7 @@
 {
     "title": "算术运算符",
     "type": "topic",
-    "order": 0,
+    "order": 1,
     "desc_file": true,
     "code": "(7 - 1) / (4 + 6 % 4);  //注意()能够改变运算顺序",
     "question": {

@@ -1,24 +1,4 @@
-在数学中 = 表示相等的含义，在 JavaScript 中 = 为赋值运算符，用于给变量赋值。
-例如：
-
-    var data = "Hello World!";
-    var result = 100;
-    var judgment = true;
-    
-上面是给变量赋予不同类型值的例子。
-
-== 表示左右两边的变量类型不同，但值相同； === 表示左右两边的变量类型和值都相同
-
-例如：
-
-    var a = 4;
-    var b = '4';
-    var c = 4;
-    a == b //值为 true
-    a === b //值为 false
-    a === c //值为 true
-
-除了基本的等号，javascript中还有类似于 
+除了基本的运算符号外，javascript中还有类似于
 
     +=    
     -=
