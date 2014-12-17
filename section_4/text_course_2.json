@@ -6,7 +6,7 @@
     "code": "console.log(0 > 10 || !(0 < -1));",
     "question": {
         "content": "",
-        "options": ["undefined","true","false"]
+        "options": ["undefined","false","true"]
     },
     "answer": {
         "value": "true",
