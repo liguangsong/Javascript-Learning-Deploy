@@ -5,7 +5,7 @@
     "desc_file": true,
     "code": "console.log(0 > 10 || !(0 < -1));",
     "question": {
-        "content": "",
+        "content": "那么，下一行代码会在console中输出的boolean值是?",
         "options": ["undefined","false","true"]
     },
     "answer": {
