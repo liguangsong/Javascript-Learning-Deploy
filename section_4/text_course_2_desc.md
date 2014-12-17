@@ -30,4 +30,3 @@
     !false    //为 true
     !(0 >10)  //为 true
 
-那么，下一行代码会在console中输出的boolean值是?
