@@ -22,7 +22,7 @@
         "path": "/practices",
         "type":"terminal",
         "src":"browser",
-        "run_files": ["./console", "../practices/section_5/practice_2/practice", "../specs/section_5/practice_2"]
+        "run_files": ["./console", "../practices/section_5/practice_2/practice.js", "../specs/section_5/practice_2"]
     },
     "order": 1
 }
