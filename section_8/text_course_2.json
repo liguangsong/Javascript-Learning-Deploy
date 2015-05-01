@@ -1,0 +1,14 @@
+{
+    "title": "函数的作用域",
+    "type": "topic",
+    "order": 1,
+    "desc_file": true,
+    "question": {
+        "content": "上述代码的最后一行输出结果是?",
+        "options": ["2", "3", "5", "6"]
+    },
+    "answer": {
+        "value": "5",
+        "explain_file": true
+    }
+}
