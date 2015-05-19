@@ -14,10 +14,18 @@
     
 如上所示，数组由方括号包围。在括号内部，数据以独立值的形式 value 来定义。数据值之间由逗号分隔。比如课程名的数组:
 
-    var courses = [ "Maths", "Chinese", "Biology, "Physics"];
+    var courses = [ "Maths", "Chinese", "Biology", "Physics"];
+    
+定义值得方式可以使用声明变量时值得方式，也可以使用变量。
+    
+    var math = "Maths"
+    var courses = [ math, "Chinese", "Biology", "Physics"];
+
+
+这段代码定义出来的courses跟上面那一段定义出来的courses是一样的。
 
 取courses数组中第一个值的方法是:
 
     var course = courses[0]; //给course赋值为"Maths"
     
-由于数组的下标(序号)是基于零的，所以第一个项目是[0]，第二个是[1]，以此类推。
+由于数组的下标(序号)是从零开始的，所以第一个项目是[0]，第二个是[1]，以此类推。
