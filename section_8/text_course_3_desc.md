@@ -4,7 +4,16 @@
         var result = [];
         result.push(i);
     }
-    console.log(result); //有的初学者以为这里会打印 [0,1,2]，实际上会打印undefined，因为result是在for里面被定义的，外面访问不到
+    console.log(result); //有的初学者以为这里会打印 [0,1,2]，实际上会打印[2]，因为result是在for里面被定义的， 每次循环都被重新初始化了。
+
+如果我们使用let
+
+    for(var i = 0; i < 3; i++){
+        let result = [];
+        result.push(i);
+    }
+    console.log(result); //Uncaught ReferenceError: x is not defined，因为result是在for里面被定义的， 外面访问不到。
+
     
 再比如： 
    
